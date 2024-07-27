@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="https://kurimareiji.github.io/mlb2024/h2h.html" />
+  <meta property="og:title" content="2024 Head-to-Head Results" />
+  <meta property="og:image" content="https://kurimareiji.github.io/mlb2024/h2h-og.png" />
+  <meta property="og:description" content="The Charts show Wins and Losses by Opponent." />
+  <meta content="summary_large_image" name="twitter:card">
+  <meta name="twitter:image" content="https://kurimareiji.github.io/mlb2024/h2h-og.png">
+  <link rel="stylesheet" href="/mlb2024/css/mlb2024-colors.css">
+  <title>2024 Head-to-Head Results</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+Mono&display=swap');
+  </style>
+  <style>
+    body {
+      margin: 0; padding: 0;
+      height: 100svh;
+    }
+    body>div:nth-of-type(1) {
+      height: 100svh;
+    }
+    mlb-h2h {
+      display: block;
+      height: 100svh;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <mlb-h2h></mlb-h2h>
+  </div>
+  <script type="importmap">
+    {
+      "imports": {
+        "teams": "/mlb2024/js/mlb2024-teams.js",
+        "utils": "/mlb2024/js/mlb2024-utils.js",
+        "h2h": "/mlb2024/js/mlb-h2h.js?v=0727",
+        "logos": "/mlb2024/js/mlb-logos.js",
+        "GameResult": "/mlb2024/js/GameResult.js"
+      }
+    }
+  </script>
+  <script type="module">
+import { fetchJson } from "utils";
+import { GameResult } from "GameResult";
+import { MlbH2h } from "h2h";
+
+const results = await fetchJson("/mlb2024/mlb2024-results.json");
+document.dispatchEvent(new CustomEvent("ResultsLoaded", { detail: results }));
+  </script>
+  <script type="module">
+import { MlbTeams as Teams } from "teams";
+const route = (href) => {
+  if (href === window.location.href) return;
+  window.history.pushState({}, null, href);
+  locationHandler();
+}
+const locationHandler = () => {
+  const url = new URL(window.location);
+  const h2h = document.querySelector("mlb-h2h");
+  try {
+    const team = url.searchParams.get("team") || "Dodgers";
+    if(Teams.find(team).name){
+      h2h.setAttribute("team", team);
+    }else{
+      throw new Error("not found");
+    }
+  } catch (error) {
+    console.log(error);
+    route("/mlb2024/h2h.html?team=Dodgers");
+  }
+}
+window.addEventListener("popstate", (_) => {
+  locationHandler();
+});
+document.addEventListener("TeamSelected", (e) => {
+  route(e.detail.href);
+});
+locationHandler();
+  </script>
+</body>
+</html>
