@@ -13038,5 +13038,45 @@
     "home": "Giants",
     "score": "0 - 1",
     "status": "Final"
+  },
+  {
+    "gamePk": 746607,
+    "date": "2024-08-01",
+    "road": "Orioles",
+    "home": "Guardians",
+    "score": "3 - 10",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746442,
+    "date": "2024-08-01",
+    "road": "Royals",
+    "home": "Tigers",
+    "score": "7 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 747092,
+    "date": "2024-08-01",
+    "road": "Marlins",
+    "home": "Braves",
+    "score": "2 - 4",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746849,
+    "date": "2024-08-01",
+    "road": "Cardinals",
+    "home": "Cubs",
+    "score": "4 - 5",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746196,
+    "date": "2024-08-01",
+    "road": "Rockies",
+    "home": "Angels",
+    "score": "5 - 4",
+    "status": "Final"
   }
 ]
