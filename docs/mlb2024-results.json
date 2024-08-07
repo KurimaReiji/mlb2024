@@ -13510,5 +13510,109 @@
     "home": "Dodgers",
     "score": "3 - 5",
     "status": "Final"
+  },
+  {
+    "gamePk": 745467,
+    "date": "2024-08-06",
+    "road": "Padres",
+    "home": "Pirates",
+    "score": "6 - 0",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746033,
+    "date": "2024-08-06",
+    "road": "Reds",
+    "home": "Marlins",
+    "score": "8 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744817,
+    "date": "2024-08-06",
+    "road": "Giants",
+    "home": "Nationals",
+    "score": "5 - 11",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744901,
+    "date": "2024-08-06",
+    "road": "Orioles",
+    "home": "Blue Jays",
+    "score": "2 - 5",
+    "status": "Final"
+  },
+  {
+    "gamePk": 747086,
+    "date": "2024-08-06",
+    "road": "Brewers",
+    "home": "Braves",
+    "score": "10 - 0",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745141,
+    "date": "2024-08-06",
+    "road": "Rays",
+    "home": "Cardinals",
+    "score": "3 - 4",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744983,
+    "date": "2024-08-06",
+    "road": "Astros",
+    "home": "Rangers",
+    "score": "4 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746840,
+    "date": "2024-08-06",
+    "road": "Twins",
+    "home": "Cubs",
+    "score": "3 - 7",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746273,
+    "date": "2024-08-06",
+    "road": "Red Sox",
+    "home": "Royals",
+    "score": "6 - 5",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746519,
+    "date": "2024-08-06",
+    "road": "Mets",
+    "home": "Rockies",
+    "score": "3 - 6",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745221,
+    "date": "2024-08-06",
+    "road": "Tigers",
+    "home": "Mariners",
+    "score": "4 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745629,
+    "date": "2024-08-06",
+    "road": "White Sox",
+    "home": "Athletics",
+    "score": "5 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746120,
+    "date": "2024-08-06",
+    "road": "Phillies",
+    "home": "Dodgers",
+    "score": "6 - 2",
+    "status": "Final"
   }
 ]
