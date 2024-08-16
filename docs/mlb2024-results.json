@@ -14510,5 +14510,61 @@
     "home": "Giants",
     "score": "13 - 2",
     "status": "Final"
+  },
+  {
+    "gamePk": 745783,
+    "date": "2024-08-15",
+    "road": "Athletics",
+    "home": "Mets",
+    "score": "7 - 6",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746437,
+    "date": "2024-08-15",
+    "road": "Mariners",
+    "home": "Tigers",
+    "score": "1 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745950,
+    "date": "2024-08-15",
+    "road": "Dodgers",
+    "home": "Brewers",
+    "score": "4 - 6",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745298,
+    "date": "2024-08-15",
+    "road": "Braves",
+    "home": "Giants",
+    "score": "0 - 6",
+    "status": "Final"
+  },
+  {
+    "gamePk": 747002,
+    "date": "2024-08-15",
+    "road": "Red Sox",
+    "home": "Orioles",
+    "score": "1 - 5",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745545,
+    "date": "2024-08-15",
+    "road": "Nationals",
+    "home": "Phillies",
+    "score": "3 - 13",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744980,
+    "date": "2024-08-15",
+    "road": "Twins",
+    "home": "Rangers",
+    "score": "3 - 2",
+    "status": "Final"
   }
 ]
