@@ -15117,6 +15117,126 @@
     "road": "Mariners",
     "home": "Dodgers",
     "score": "3 - 6",
-    "status": "Game Over"
+    "status": "Final"
+  },
+  {
+    "gamePk": 745781,
+    "date": "2024-08-21",
+    "road": "Orioles",
+    "home": "Mets",
+    "score": "3 - 4",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746350,
+    "date": "2024-08-21",
+    "road": "Red Sox",
+    "home": "Astros",
+    "score": "4 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744973,
+    "date": "2024-08-21",
+    "road": "Pirates",
+    "home": "Rangers",
+    "score": "0 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745297,
+    "date": "2024-08-21",
+    "road": "White Sox",
+    "home": "Giants",
+    "score": "6 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745375,
+    "date": "2024-08-21",
+    "road": "Twins",
+    "home": "Padres",
+    "score": "11 - 4",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746028,
+    "date": "2024-08-21",
+    "road": "Diamondbacks",
+    "home": "Marlins",
+    "score": "10 - 8",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744812,
+    "date": "2024-08-21",
+    "road": "Rockies",
+    "home": "Nationals",
+    "score": "1 - 6",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745704,
+    "date": "2024-08-21",
+    "road": "Guardians",
+    "home": "Yankees",
+    "score": "1 - 8",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744893,
+    "date": "2024-08-21",
+    "road": "Reds",
+    "home": "Blue Jays",
+    "score": "11 - 7",
+    "status": "Final"
+  },
+  {
+    "gamePk": 747084,
+    "date": "2024-08-21",
+    "road": "Phillies",
+    "home": "Braves",
+    "score": "3 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745138,
+    "date": "2024-08-21",
+    "road": "Brewers",
+    "home": "Cardinals",
+    "score": "6 - 10",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746837,
+    "date": "2024-08-21",
+    "road": "Tigers",
+    "home": "Cubs",
+    "score": "8 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746267,
+    "date": "2024-08-21",
+    "road": "Angels",
+    "home": "Royals",
+    "score": "0 - 3",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745622,
+    "date": "2024-08-21",
+    "road": "Rays",
+    "home": "Athletics",
+    "score": "4 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746110,
+    "date": "2024-08-21",
+    "road": "Mariners",
+    "home": "Dodgers",
+    "score": "4 - 8",
+    "status": "Final"
   }
 ]
