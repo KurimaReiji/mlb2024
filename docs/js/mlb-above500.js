@@ -320,7 +320,7 @@ const setup = ({ league, division, series, width, height }) => {
   }
 
   const yTics = [...new Array(30)]
-    .map((n, i) => i * 5 - 60)
+    .map((n, i) => i * 5 - 100)
     .filter((n) => n < yDomain[0] && n > yDomain[1])
     .map((n) => ({ x: xDomain[0], y: n }));
 
