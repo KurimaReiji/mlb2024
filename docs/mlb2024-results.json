@@ -16558,5 +16558,109 @@
     "home": "Rangers",
     "score": "8 - 4",
     "status": "Final"
+  },
+  {
+    "gamePk": 746991,
+    "date": "2024-09-03",
+    "road": "White Sox",
+    "home": "Orioles",
+    "score": "0 - 9",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746020,
+    "date": "2024-09-03",
+    "road": "Nationals",
+    "home": "Marlins",
+    "score": "6 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745047,
+    "date": "2024-09-03",
+    "road": "Twins",
+    "home": "Rays",
+    "score": "1 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744891,
+    "date": "2024-09-03",
+    "road": "Phillies",
+    "home": "Blue Jays",
+    "score": "10 - 9",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745778,
+    "date": "2024-09-03",
+    "road": "Red Sox",
+    "home": "Mets",
+    "score": "2 - 7",
+    "status": "Final"
+  },
+  {
+    "gamePk": 747079,
+    "date": "2024-09-03",
+    "road": "Rockies",
+    "home": "Braves",
+    "score": "0 - 3",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746264,
+    "date": "2024-09-03",
+    "road": "Guardians",
+    "home": "Royals",
+    "score": "7 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746834,
+    "date": "2024-09-03",
+    "road": "Pirates",
+    "home": "Cubs",
+    "score": "5 - 0",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745944,
+    "date": "2024-09-03",
+    "road": "Cardinals",
+    "home": "Brewers",
+    "score": "7 - 4",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744968,
+    "date": "2024-09-03",
+    "road": "Yankees",
+    "home": "Rangers",
+    "score": "4 - 7",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746185,
+    "date": "2024-09-03",
+    "road": "Dodgers",
+    "home": "Angels",
+    "score": "6 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745615,
+    "date": "2024-09-03",
+    "road": "Mariners",
+    "home": "Athletics",
+    "score": "2 - 3",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745293,
+    "date": "2024-09-03",
+    "road": "Diamondbacks",
+    "home": "Giants",
+    "score": "8 - 7",
+    "status": "Final"
   }
 ]
