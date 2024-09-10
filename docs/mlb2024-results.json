@@ -17214,5 +17214,77 @@
     "home": "Astros",
     "score": "12 - 6",
     "status": "Final"
+  },
+  {
+    "gamePk": 745534,
+    "date": "2024-09-09",
+    "road": "Rays",
+    "home": "Phillies",
+    "score": "1 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 747090,
+    "date": "2024-09-09",
+    "road": "Reds",
+    "home": "Braves",
+    "score": "1 - 0",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745454,
+    "date": "2024-09-09",
+    "road": "Marlins",
+    "home": "Pirates",
+    "score": "2 - 3",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745698,
+    "date": "2024-09-09",
+    "road": "Royals",
+    "home": "Yankees",
+    "score": "4 - 10",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744888,
+    "date": "2024-09-09",
+    "road": "Mets",
+    "home": "Blue Jays",
+    "score": "3 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746909,
+    "date": "2024-09-09",
+    "road": "Orioles",
+    "home": "Red Sox",
+    "score": "3 - 12",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745860,
+    "date": "2024-09-09",
+    "road": "Angels",
+    "home": "Twins",
+    "score": "6 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746746,
+    "date": "2024-09-09",
+    "road": "Guardians",
+    "home": "White Sox",
+    "score": "5 - 3",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746101,
+    "date": "2024-09-09",
+    "road": "Cubs",
+    "home": "Dodgers",
+    "score": "10 - 4",
+    "status": "Final"
   }
 ]
