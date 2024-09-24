@@ -290,12 +290,27 @@ const svgTemplate = `
     [data-opponent="Braves"][data-loser="Phillies"] {
       --team-color: var(--braves-navy);
     }
+    [data-opponent="Mets"][data-loser="Phillies"] {
+      --team-color: var(--mets-blue);
+    }
     [data-opponent="Nationals"][data-loser="Phillies"] {
       --team-color: var(--nationals-navyblue);
     }
     [data-opponent="Guardians"][data-loser="Phillies"] {
       --team-color: var(--guardians-navy);
     }
+    [data-opponent="Diamondbacks"][data-loser="Phillies"] {
+      --team-color: var(--dbacks-sand);
+    }
+    [data-opponent="Reds"][data-loser="Phillies"] {
+      --team-color: var(--reds-black);
+    }
+    [data-opponent="Cardinals"][data-loser="Phillies"] {
+      --team-color: var(--cardinals-navy);
+    }
+    [data-opponent="Angels"][data-loser="Phillies"] {
+      --team-color: var(--angels-maroon);
+    }   
   </style>
   <g id="elements">
     <path />
