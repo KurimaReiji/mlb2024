@@ -18726,5 +18726,37 @@
     "home": "Mets",
     "score": "1 - 2",
     "status": "Final"
+  },
+  {
+    "gamePk": 745527,
+    "date": "2024-09-23",
+    "road": "Cubs",
+    "home": "Phillies",
+    "score": "2 - 6",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744885,
+    "date": "2024-09-23",
+    "road": "Red Sox",
+    "home": "Blue Jays",
+    "score": "4 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746334,
+    "date": "2024-09-23",
+    "road": "Mariners",
+    "home": "Astros",
+    "score": "6 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 747150,
+    "date": "2024-09-23",
+    "road": "Giants",
+    "home": "Diamondbacks",
+    "score": "6 - 3",
+    "status": "Final"
   }
 ]
