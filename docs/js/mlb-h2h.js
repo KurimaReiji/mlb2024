@@ -287,6 +287,15 @@ const svgTemplate = `
     [data-opponent="Padres"][data-loser="Yankees"] {
       --team-color: var(--padres-gold);
     }
+    [data-opponent="Braves"][data-loser="Phillies"] {
+      --team-color: var(--braves-navy);
+    }
+    [data-opponent="Nationals"][data-loser="Phillies"] {
+      --team-color: var(--nationals-navyblue);
+    }
+    [data-opponent="Guardians"][data-loser="Phillies"] {
+      --team-color: var(--guardians-navy);
+    }
   </style>
   <g id="elements">
     <path />
