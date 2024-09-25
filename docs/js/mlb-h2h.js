@@ -386,6 +386,7 @@ const svgTemplate = `
     }
 
     [data-opponent="Marlins"][data-loser="Yankees"],
+    [data-opponent="Marlins"][data-loser="Royals"],
     [data-opponent="Marlins"][data-loser="Brewers"],
     [data-opponent="Marlins"][data-loser="Padres"],
     [data-opponent="Marlins"][data-loser="Dodgers"] {
@@ -404,6 +405,7 @@ const svgTemplate = `
     }
     [data-opponent="Cubs"][data-loser="Yankees"],
     [data-opponent="Cubs"][data-loser="Tigers"],
+    [data-opponent="Cubs"][data-loser="Royals"],
     [data-opponent="Cubs"][data-loser="Twins"],
     [data-opponent="Cubs"][data-loser="Athletics"],
     [data-opponent="Cubs"][data-loser="Brewers"],
@@ -415,6 +417,7 @@ const svgTemplate = `
     
     [data-opponent="Rangers"][data-loser="Yankees"],
     [data-opponent="Rangers"][data-loser="Tigers"],
+    [data-opponent="Rangers"][data-loser="Royals"],
     [data-opponent="Rangers"][data-loser="Twins"],
     [data-opponent="Rangers"][data-loser="Brewers"],
     [data-opponent="Rangers"][data-loser="Padres"],
