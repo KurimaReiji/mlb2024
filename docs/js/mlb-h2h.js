@@ -261,25 +261,20 @@ const svgTemplate = `
       --team-color: var(--nl-navy);
     }
 
-    [data-opponent="Yankees"][data-loser="Rays"] {
-      --team-color: var(--yankees-gray);
-      --team-shadow-color: var(--yankees-blue);
-    }
+    [data-opponent="Rays"][data-loser="Cubs"],
+    [data-opponent="Rays"][data-loser="Tigers"],
+    [data-opponent="Rays"][data-loser="Rangers"],
     [data-opponent="Rays"][data-loser="Yankees"] {
       --team-color: var(--rays-columbia-blue);
       --team-shadow-color: var(--rays-navy);
     }
-    [data-opponent="Yankees"][data-loser="Padres"] {
-      --team-color: var(--yankees-gray);
-      --team-shadow-color: var(--yankees-blue);
-    }
+    [data-opponent="Yankees"][data-loser="Cubs"],
+    [data-opponent="Yankees"][data-loser="Padres"],
+    [data-opponent="Yankees"][data-loser="Rays"],
+    [data-opponent="Yankees"][data-loser="Tigers"],
     [data-opponent="Yankees"][data-loser="Rangers"] {
       --team-color: var(--yankees-gray);
       --team-shadow-color: var(--yankees-blue);
-    }
-    [data-opponent="Rays"][data-loser="Rangers"] {
-      --team-color: var(--rays-columbia-blue);
-      --team-shadow-color: var(--rays-navy);
     }
     [data-opponent="Tigers"][data-loser="Rangers"],
     [data-opponent="Tigers"][data-loser="Yankees"],
@@ -288,6 +283,7 @@ const svgTemplate = `
     [data-opponent="Tigers"][data-loser="Dodgers"] {
       --team-color: var(--tigers-orange);
     }
+    [data-opponent="Padres"][data-loser="Cubs"],
     [data-opponent="Padres"][data-loser="Yankees"] {
       --team-color: var(--padres-gold);
     }
@@ -300,6 +296,8 @@ const svgTemplate = `
       --team-color: var(--braves-navy);
     }
     [data-opponent="Phillies"][data-loser="Reds"],
+    [data-opponent="Phillies"][data-loser="Cardinals"],
+    [data-opponent="Phillies"][data-loser="Nationals"],
     [data-opponent="Phillies"][data-loser="Braves"] {
       --team-color: var(--phillies-blue);
     }
@@ -310,11 +308,14 @@ const svgTemplate = `
       --team-shadow-color: var(--mets-orange);
     }
     [data-opponent="Nationals"][data-loser="Reds"],
+    [data-opponent="Nationals"][data-loser="Cardinals"],
     [data-opponent="Nationals"][data-loser="Braves"],
     [data-opponent="Nationals"][data-loser="Phillies"] {
       --team-color: var(--nationals-navyblue);
     }
     [data-opponent="Guardians"][data-loser="Reds"],
+    [data-opponent="Guardians"][data-loser="Cardinals"],
+    [data-opponent="Guardians"][data-loser="Nationals"],
     [data-opponent="Guardians"][data-loser="Braves"],
     [data-opponent="Guardians"][data-loser="Phillies"] {
       --team-color: var(--guardians-navy);
@@ -360,12 +361,13 @@ const svgTemplate = `
       --team-color: var(--marlins-miamiblue);
       --team-shadow-color: var(--marlins-black);
     }
-    [data-opponent="Brewers"][data-loser="Yankess"],
+    [data-opponent="Brewers"][data-loser="Yankees"],
     [data-opponent="Brewers"][data-loser="Padres"],
     [data-opponent="Brewers"][data-loser="Dodgers"] {
       --team-color: var(--brewers-yellow);
       --team-shadow-color: var(--brewers-navy);
     }
+    [data-opponent="Cubs"][data-loser="Yankees"],
     [data-opponent="Cubs"][data-loser="Padres"],
     [data-opponent="Cubs"][data-loser="Dodgers"] {
       --team-color: var(--cubs-red);
@@ -376,11 +378,13 @@ const svgTemplate = `
       --team-color: var(--rays-columbia-blue);
       --team-shadow-color: var(--rays-navy);
     }
-    [data-opponent="Rangers"][data-loser="Yankess"],
+    [data-opponent="Rangers"][data-loser="Yankees"],
     [data-opponent="Rangers"][data-loser="Padres"],
     [data-opponent="Rangers"][data-loser="Dodgers"] {
       --team-color: var(--rangers-red);
     }
+    [data-opponent="Twins"][data-loser="Yankees"],
+    [data-opponent="Twins"][data-loser="Tigers"],
     [data-opponent="Twins"][data-loser="Padres"],
     [data-opponent="Twins"][data-loser="Dodgers"] {
       --team-color: var(--twins-scarlet-red);
