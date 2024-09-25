@@ -275,6 +275,7 @@ const svgTemplate = `
     [data-opponent="Yankees"][data-loser="Cubs"],
     [data-opponent="Yankees"][data-loser="Brewers"],
     [data-opponent="Yankees"][data-loser="Padres"],
+    [data-opponent="Yankees"][data-loser="Dodgers"],
     [data-opponent="Yankees"][data-loser="Rays"],
     [data-opponent="Yankees"][data-loser="Tigers"],
     [data-opponent="Yankees"][data-loser="Athletics"],
@@ -291,12 +292,7 @@ const svgTemplate = `
     [data-opponent="Tigers"][data-loser="Dodgers"] {
       --team-color: var(--tigers-orange);
     }
-    [data-opponent="Padres"][data-loser="Cubs"],
-    [data-opponent="Padres"][data-loser="Brewers"],
-    [data-opponent="Padres"][data-loser="Athletics"],
-    [data-opponent="Padres"][data-loser="Yankees"] {
-      --team-color: var(--padres-gold);
-    }
+    
     [data-opponent="Braves"][data-loser="Orioless"],
     [data-opponent="Braves"][data-loser="Red Sox"],
     [data-opponent="Braves"][data-loser="Guardians"],
@@ -336,6 +332,12 @@ const svgTemplate = `
     [data-opponent="Diamondbacks"][data-loser="Phillies"] {
       --team-color: var(--dbacks-sand);
     }
+    [data-opponent="Padres"][data-loser="Cubs"],
+    [data-opponent="Padres"][data-loser="Brewers"],
+    [data-opponent="Padres"][data-loser="Athletics"],
+    [data-opponent="Padres"][data-loser="Yankees"] {
+      --team-color: var(--padres-gold);
+    }
     [data-opponent="Reds"][data-loser="Cardinals"],
     [data-opponent="Reds"][data-loser="Braves"],
     [data-opponent="Reds"][data-loser="Phillies"] {
@@ -348,6 +350,7 @@ const svgTemplate = `
     }
     [data-opponent="Giants"][data-loser="Reds"],
     [data-opponent="Giants"][data-loser="Braves"],
+    [data-opponent="Giants"][data-loser="Mets"],
     [data-opponent="Giants"][data-loser="Phillies"] {
       --team-color: var(--giants-black);
     }
@@ -368,6 +371,10 @@ const svgTemplate = `
     [data-opponent="Angels"][data-loser="Braves"],
     [data-opponent="Angels"][data-loser="Phillies"] {
       --team-color: var(--angels-blue);
+    }
+    [data-opponent="Astros"][data-loser="Mets"],
+    [data-opponent="Astros"][data-loser="Giants"] {
+      --team-color: var(--astros-darkblue);
     }
 
     [data-opponent="Marlins"][data-loser="Yankees"],
