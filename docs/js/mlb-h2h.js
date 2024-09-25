@@ -292,6 +292,7 @@ const svgTemplate = `
       --team-color: var(--tigers-orange);
     }
     [data-opponent="Padres"][data-loser="Cubs"],
+    [data-opponent="Padres"][data-loser="Brewers"],
     [data-opponent="Padres"][data-loser="Athletics"],
     [data-opponent="Padres"][data-loser="Yankees"] {
       --team-color: var(--padres-gold);
@@ -370,6 +371,7 @@ const svgTemplate = `
     }
 
     [data-opponent="Marlins"][data-loser="Yankees"],
+    [data-opponent="Marlins"][data-loser="Brewers"],
     [data-opponent="Marlins"][data-loser="Padres"],
     [data-opponent="Marlins"][data-loser="Dodgers"] {
       --team-color: var(--marlins-miamiblue);
