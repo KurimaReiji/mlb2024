@@ -321,10 +321,12 @@ const svgTemplate = `
       --team-color: var(--guardians-navy);
     }
     [data-opponent="Diamondbacks"][data-loser="Reds"],
+    [data-opponent="Diamondbacks"][data-loser="Cardinals"],
     [data-opponent="Diamondbacks"][data-loser="Braves"],
     [data-opponent="Diamondbacks"][data-loser="Phillies"] {
       --team-color: var(--dbacks-sand);
     }
+    [data-opponent="Reds"][data-loser="Cardinals"],
     [data-opponent="Reds"][data-loser="Braves"],
     [data-opponent="Reds"][data-loser="Phillies"] {
       --team-color: var(--reds-black);
@@ -340,16 +342,19 @@ const svgTemplate = `
       --team-color: var(--giants-black);
     }
     [data-opponent="Orioles"][data-loser="Reds"],
+    [data-opponent="Orioles"][data-loser="Cardinals"],
     [data-opponent="Orioles"][data-loser="Braves"],
     [data-opponent="Orioles"][data-loser="Phillies"] {
       --team-color: var(--orioles-black);
     }
     [data-opponent="Red Sox"][data-loser="Reds"],
+    [data-opponent="Red Sox"][data-loser="Cardinals"],
     [data-opponent="Red Sox"][data-loser="Braves"],
     [data-opponent="Red Sox"][data-loser="Phillies"] {
       --team-color: var(--redsox-blue);
     }
     [data-opponent="Angels"][data-loser="Reds"],
+    [data-opponent="Angels"][data-loser="Cardinals"],
     [data-opponent="Angels"][data-loser="Braves"],
     [data-opponent="Angels"][data-loser="Phillies"] {
       --team-color: var(--angels-blue);
