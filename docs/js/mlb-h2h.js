@@ -332,6 +332,7 @@ const svgTemplate = `
       --team-color: var(--guardians-navy);
     }
     [data-opponent="Diamondbacks"][data-loser="Reds"],
+    [data-opponent="Diamondbacks"][data-loser="Nationals"],
     [data-opponent="Diamondbacks"][data-loser="Cardinals"],
     [data-opponent="Diamondbacks"][data-loser="Braves"],
     [data-opponent="Diamondbacks"][data-loser="Phillies"] {
@@ -347,11 +348,13 @@ const svgTemplate = `
       --team-color: var(--padres-gold);
     }
     [data-opponent="Reds"][data-loser="Cardinals"],
+    [data-opponent="Reds"][data-loser="Nationals"],
     [data-opponent="Reds"][data-loser="Braves"],
     [data-opponent="Reds"][data-loser="Phillies"] {
       --team-color: var(--reds-black);
     }
     [data-opponent="Cardinals"][data-loser="Reds"],
+    [data-opponent="Cardinals"][data-loser="Nationals"],
     [data-opponent="Cardinals"][data-loser="Braves"],
     [data-opponent="Cardinals"][data-loser="Phillies"] {
       --team-color: var(--cardinals-navy);
