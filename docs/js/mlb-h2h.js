@@ -287,6 +287,7 @@ const svgTemplate = `
       --team-color: var(--tigers-orange);
     }
     [data-opponent="Padres"][data-loser="Cubs"],
+    [data-opponent="Padres"][data-loser="Athletics"],
     [data-opponent="Padres"][data-loser="Yankees"] {
       --team-color: var(--padres-gold);
     }
@@ -394,17 +395,22 @@ const svgTemplate = `
       --team-color: var(--rangers-red);
     }
     [data-opponent="Twins"][data-loser="Yankees"],
+    [data-opponent="Twins"][data-loser="Athletics"],
     [data-opponent="Twins"][data-loser="Tigers"],
     [data-opponent="Twins"][data-loser="Padres"],
     [data-opponent="Twins"][data-loser="Dodgers"] {
       --team-color: var(--twins-scarlet-red);
     }
     [data-opponent="Royals"][data-loser="Yankees"],
+    [data-opponent="Royals"][data-loser="Athletics"],
     [data-opponent="Royals"][data-loser="Tigers"],
     [data-opponent="Royals"][data-loser="Padres"],
     [data-opponent="Royals"][data-loser="Dodgers"] {
       --team-color: var(--royals-powderblue);
       --team-shadow-color: var(--royals-blue);
+    }
+    [data-opponent="Rockies"][data-loser="White Sox"] {
+      --team-color: var(--rockies-purple);
     }
       
   </style>
