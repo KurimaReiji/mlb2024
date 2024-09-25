@@ -266,6 +266,7 @@ const svgTemplate = `
     [data-opponent="Rays"][data-loser="Padres"],
     [data-opponent="Rays"][data-loser="Dodgers"],
     [data-opponent="Rays"][data-loser="Tigers"],
+    [data-opponent="Rays"][data-loser="Twins"],
     [data-opponent="Rays"][data-loser="Athletics"],
     [data-opponent="Rays"][data-loser="Rangers"],
     [data-opponent="Rays"][data-loser="Yankees"] {
@@ -278,6 +279,7 @@ const svgTemplate = `
     [data-opponent="Yankees"][data-loser="Dodgers"],
     [data-opponent="Yankees"][data-loser="Rays"],
     [data-opponent="Yankees"][data-loser="Tigers"],
+    [data-opponent="Yankees"][data-loser="Twins"],
     [data-opponent="Yankees"][data-loser="Athletics"],
     [data-opponent="Yankees"][data-loser="Rangers"] {
       --team-color: var(--yankees-gray);
@@ -335,6 +337,8 @@ const svgTemplate = `
     }
     [data-opponent="Padres"][data-loser="Cubs"],
     [data-opponent="Padres"][data-loser="Brewers"],
+    [data-opponent="Padres"][data-loser="Tigers"],
+    [data-opponent="Padres"][data-loser="Twins"],
     [data-opponent="Padres"][data-loser="Athletics"],
     [data-opponent="Padres"][data-loser="Yankees"] {
       --team-color: var(--padres-gold);
@@ -386,6 +390,7 @@ const svgTemplate = `
       --team-shadow-color: var(--marlins-black);
     }
     [data-opponent="Brewers"][data-loser="Yankees"],
+    [data-opponent="Brewers"][data-loser="Tigers"],
     [data-opponent="Brewers"][data-loser="Twins"],
     [data-opponent="Brewers"][data-loser="Athletics"],
     [data-opponent="Brewers"][data-loser="Padres"],
@@ -394,6 +399,7 @@ const svgTemplate = `
       --team-shadow-color: var(--brewers-navy);
     }
     [data-opponent="Cubs"][data-loser="Yankees"],
+    [data-opponent="Cubs"][data-loser="Tigers"],
     [data-opponent="Cubs"][data-loser="Twins"],
     [data-opponent="Cubs"][data-loser="Athletics"],
     [data-opponent="Cubs"][data-loser="Brewers"],
@@ -404,6 +410,7 @@ const svgTemplate = `
     }
     
     [data-opponent="Rangers"][data-loser="Yankees"],
+    [data-opponent="Rangers"][data-loser="Tigers"],
     [data-opponent="Rangers"][data-loser="Twins"],
     [data-opponent="Rangers"][data-loser="Brewers"],
     [data-opponent="Rangers"][data-loser="Padres"],
