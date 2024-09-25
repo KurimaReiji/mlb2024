@@ -344,6 +344,29 @@ const svgTemplate = `
     [data-opponent="Angels"][data-loser="Phillies"] {
       --team-color: var(--angels-blue);
     }
+
+    [data-opponent="Marlins"][data-loser="Dodgers"] {
+      --team-color: var(--marlins-miamiblue);
+    }
+    [data-opponent="Cubs"][data-loser="Dodgers"] {
+      --team-color: var(--cubs-blue);
+    }
+    [data-opponent="Rays"][data-loser="Dodgers"] {
+      --team-color: var(--rays-columbia-blue);
+    }
+    [data-opponent="Rangers"][data-loser="Dodgers"] {
+      --team-color: var(--rangers-red);
+    }
+    [data-opponent="Tigers"][data-loser="Dodgers"] {
+      --team-color: var(--tigers-orange);
+    }
+    [data-opponent="Twins"][data-loser="Dodgers"] {
+      --team-color: var(--twins-scarlet-red);
+    }
+    [data-opponent="Royals"][data-loser="Dodgers"] {
+      --team-color: var(--royals-powderblue);
+    }
+      
   </style>
   <g id="elements">
     <path />
