@@ -262,6 +262,9 @@ const svgTemplate = `
     }
 
     [data-opponent="Rays"][data-loser="Cubs"],
+    [data-opponent="Rays"][data-loser="Brewers"],
+    [data-opponent="Rays"][data-loser="Padres"],
+    [data-opponent="Rays"][data-loser="Dodgers"],
     [data-opponent="Rays"][data-loser="Tigers"],
     [data-opponent="Rays"][data-loser="Athletics"],
     [data-opponent="Rays"][data-loser="Rangers"],
@@ -270,6 +273,7 @@ const svgTemplate = `
       --team-shadow-color: var(--rays-navy);
     }
     [data-opponent="Yankees"][data-loser="Cubs"],
+    [data-opponent="Yankees"][data-loser="Brewers"],
     [data-opponent="Yankees"][data-loser="Padres"],
     [data-opponent="Yankees"][data-loser="Rays"],
     [data-opponent="Yankees"][data-loser="Tigers"],
@@ -282,6 +286,7 @@ const svgTemplate = `
     [data-opponent="Tigers"][data-loser="Rangers"],
     [data-opponent="Tigers"][data-loser="Yankees"],
     [data-opponent="Tigers"][data-loser="Royals"],
+    [data-opponent="Tigers"][data-loser="Brewers"],
     [data-opponent="Tigers"][data-loser="Padres"],
     [data-opponent="Tigers"][data-loser="Dodgers"] {
       --team-color: var(--tigers-orange);
@@ -379,17 +384,15 @@ const svgTemplate = `
     }
     [data-opponent="Cubs"][data-loser="Yankees"],
     [data-opponent="Cubs"][data-loser="Athletics"],
+    [data-opponent="Cubs"][data-loser="Brewers"],
     [data-opponent="Cubs"][data-loser="Padres"],
     [data-opponent="Cubs"][data-loser="Dodgers"] {
       --team-color: var(--cubs-red);
       --team-shadow-color: var(--cubs-blue);
     }
-    [data-opponent="Rays"][data-loser="Padres"],
-    [data-opponent="Rays"][data-loser="Dodgers"] {
-      --team-color: var(--rays-columbia-blue);
-      --team-shadow-color: var(--rays-navy);
-    }
+    
     [data-opponent="Rangers"][data-loser="Yankees"],
+    [data-opponent="Rangers"][data-loser="Brewers"],
     [data-opponent="Rangers"][data-loser="Padres"],
     [data-opponent="Rangers"][data-loser="Dodgers"] {
       --team-color: var(--rangers-red);
@@ -397,6 +400,7 @@ const svgTemplate = `
     [data-opponent="Twins"][data-loser="Yankees"],
     [data-opponent="Twins"][data-loser="Athletics"],
     [data-opponent="Twins"][data-loser="Tigers"],
+    [data-opponent="Twins"][data-loser="Brewers"],
     [data-opponent="Twins"][data-loser="Padres"],
     [data-opponent="Twins"][data-loser="Dodgers"] {
       --team-color: var(--twins-scarlet-red);
