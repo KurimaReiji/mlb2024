@@ -18878,5 +18878,117 @@
     "home": "Dodgers",
     "score": "4 - 2",
     "status": "Final"
+  },
+  {
+    "gamePk": 746331,
+    "date": "2024-09-25",
+    "road": "Mariners",
+    "home": "Astros",
+    "score": "8 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745521,
+    "date": "2024-09-25",
+    "road": "Cubs",
+    "home": "Phillies",
+    "score": "6 - 9",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746583,
+    "date": "2024-09-25",
+    "road": "Reds",
+    "home": "Guardians",
+    "score": "2 - 5",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746420,
+    "date": "2024-09-25",
+    "road": "Rays",
+    "home": "Tigers",
+    "score": "1 - 7",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745442,
+    "date": "2024-09-25",
+    "road": "Brewers",
+    "home": "Pirates",
+    "score": "1 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744795,
+    "date": "2024-09-25",
+    "road": "Royals",
+    "home": "Nationals",
+    "score": "3 - 0",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745690,
+    "date": "2024-09-25",
+    "road": "Orioles",
+    "home": "Yankees",
+    "score": "9 - 7",
+    "status": "Final"
+  },
+  {
+    "gamePk": 744877,
+    "date": "2024-09-25",
+    "road": "Red Sox",
+    "home": "Blue Jays",
+    "score": "1 - 6",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746742,
+    "date": "2024-09-25",
+    "road": "Angels",
+    "home": "White Sox",
+    "score": "3 - 4",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745854,
+    "date": "2024-09-25",
+    "road": "Marlins",
+    "home": "Twins",
+    "score": "3 - 8",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746501,
+    "date": "2024-09-25",
+    "road": "Cardinals",
+    "home": "Rockies",
+    "score": "5 - 2",
+    "status": "Final"
+  },
+  {
+    "gamePk": 747144,
+    "date": "2024-09-25",
+    "road": "Giants",
+    "home": "Diamondbacks",
+    "score": "2 - 8",
+    "status": "Final"
+  },
+  {
+    "gamePk": 745607,
+    "date": "2024-09-25",
+    "road": "Rangers",
+    "home": "Athletics",
+    "score": "5 - 1",
+    "status": "Final"
+  },
+  {
+    "gamePk": 746095,
+    "date": "2024-09-25",
+    "road": "Padres",
+    "home": "Dodgers",
+    "score": "3 - 4",
+    "status": "Final"
   }
 ]
