@@ -298,6 +298,15 @@ const svgTemplate = `
       --team-color: var(--tigers-orange);
     }
     
+    [data-team="Diamondbacks"] [data-fill="Braves"],
+    [data-team="Orioles"] [data-fill="Braves"],
+    [data-team="Red Sox"] [data-fill="Braves"],
+    [data-team="Guardians"] [data-fill="Braves"],
+    [data-team="Reds"] [data-fill="Braves"],
+    [data-team="Cardinals"] [data-fill="Braves"],
+    [data-team="Nationals"] [data-fill="Braves"],
+    [data-team="Mets"] [data-fill="Braves"],
+    [data-team="Phillies"] [data-fill="Braves"],
     [data-opponent="Braves"][data-loser="Diamondbacks"],
     [data-opponent="Braves"][data-loser="Orioless"],
     [data-opponent="Braves"][data-loser="Red Sox"],
@@ -309,6 +318,13 @@ const svgTemplate = `
     [data-opponent="Braves"][data-loser="Phillies"] {
       --team-color: var(--braves-navy);
     }
+
+    [data-team="Diamondbacks"] [data-fill="Phillies"],
+    [data-team="Reds"] [data-fill="Phillies"],
+    [data-team="Cardinals"] [data-fill="Phillies"],
+    [data-team="Nationals"] [data-fill="Phillies"],
+    [data-team="Mets"] [data-fill="Phillies"],
+    [data-team="Braves"] [data-fill="Phillies"],
     [data-opponent="Phillies"][data-loser="Diamondbacks"],
     [data-opponent="Phillies"][data-loser="Reds"],
     [data-opponent="Phillies"][data-loser="Cardinals"],
@@ -317,12 +333,23 @@ const svgTemplate = `
     [data-opponent="Phillies"][data-loser="Braves"] {
       --team-color: var(--phillies-blue);
     }
+
+    [data-team="Reds"] [data-fill="Mets"],
+    [data-team="Braves"] [data-fill="Mets"],
+    [data-team="Phillies"] [data-fill="Mets"],
     [data-opponent="Mets"][data-loser="Reds"],
     [data-opponent="Mets"][data-loser="Braves"],
     [data-opponent="Mets"][data-loser="Phillies"] {
       --team-color: var(--mets-blue);
       --team-shadow-color: var(--mets-orange);
     }
+
+    [data-team="Diamondbacks"] [data-fill="Nationals"],
+    [data-team="Reds"] [data-fill="Nationals"],
+    [data-team="Cardinals"] [data-fill="Nationals"],
+    [data-team="Mets"] [data-fill="Nationals"],
+    [data-team="Braves"] [data-fill="Nationals"],
+    [data-team="Phillies"] [data-fill="Nationals"],
     [data-opponent="Nationals"][data-loser="Diamondbacks"],
     [data-opponent="Nationals"][data-loser="Reds"],
     [data-opponent="Nationals"][data-loser="Cardinals"],
@@ -455,6 +482,13 @@ const svgTemplate = `
     [data-opponent="Twins"][data-loser="Dodgers"] {
       --team-color: var(--twins-scarlet-red);
     }
+    [data-team="Brewers"] [data-fill="Royals"],
+    [data-team="Yankees"] [data-fill="Royals"],
+    [data-team="Athletics"] [data-fill="Royals"],
+    [data-team="Tigers"] [data-fill="Royals"],
+    [data-team="Twins"] [data-fill="Royals"],
+    [data-team="Padres"] [data-fill="Royals"],
+    [data-team="Dodgers"] [data-fill="Royals"],
     [data-opponent="Royals"][data-loser="Brewers"],
     [data-opponent="Royals"][data-loser="Yankees"],
     [data-opponent="Royals"][data-loser="Athletics"],
@@ -465,10 +499,11 @@ const svgTemplate = `
       --team-color: var(--royals-powderblue);
       --team-shadow-color: var(--royals-blue);
     }
+    [data-team="White Sox"] [data-fill="Rockies"],
     [data-opponent="Rockies"][data-loser="White Sox"] {
       --team-color: var(--rockies-purple);
     }
-      
+
   </style>
   <g id="elements">
     <path />
@@ -479,6 +514,7 @@ const svgTemplate = `
     <g></g>
   </g>
   <rect x="-1200" y="-1200" width="2400" height="2400" stroke="none" id="bgRect"/>
+  <g data-team="">
   <g id="gArcs"></g>
   <g id="gDivRecords"></g>
   <g id="gGames"></g>
@@ -490,6 +526,7 @@ const svgTemplate = `
     <text x="0" y="-360">2024</text>
   </g>
   <g id="opLogo"><g></g></g>
+  </g>
 </svg>
 `;
 
@@ -724,7 +761,7 @@ const create_chart = (games, team, self) => {
 
   const { myGames, opponents, numSeries } = setup(games, team);
   const svg = document.querySelector("mlb-h2h").shadowRoot.querySelector("template").content.cloneNode(true).querySelector("svg");
-
+  svg.querySelector(`g[data-team]`).dataset.team = team;
   update_record({ team, myGames, target: svg.querySelector("#Record text") });
   update_teamLogo({ team, logo: logos[team], grp: svg.getElementById("teamLogo") });
 
