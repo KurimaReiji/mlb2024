@@ -323,6 +323,7 @@ const svgTemplate = `
       --team-color: var(--mets-blue);
       --team-shadow-color: var(--mets-orange);
     }
+    [data-opponent="Nationals"][data-loser="Diamondbacks"],
     [data-opponent="Nationals"][data-loser="Reds"],
     [data-opponent="Nationals"][data-loser="Cardinals"],
     [data-opponent="Nationals"][data-loser="Mets"],
@@ -405,6 +406,7 @@ const svgTemplate = `
       --team-color: var(--astros-darkblue);
     }
 
+    [data-opponent="Marlins"][data-loser="Tigers"],
     [data-opponent="Marlins"][data-loser="Yankees"],
     [data-opponent="Marlins"][data-loser="Royals"],
     [data-opponent="Marlins"][data-loser="Brewers"],
@@ -453,6 +455,7 @@ const svgTemplate = `
     [data-opponent="Twins"][data-loser="Dodgers"] {
       --team-color: var(--twins-scarlet-red);
     }
+    [data-opponent="Royals"][data-loser="Brewers"],
     [data-opponent="Royals"][data-loser="Yankees"],
     [data-opponent="Royals"][data-loser="Athletics"],
     [data-opponent="Royals"][data-loser="Tigers"],
