@@ -375,6 +375,7 @@ const svgTemplate = `
     }
     [data-opponent="Orioles"][data-loser="Reds"],
     [data-opponent="Orioles"][data-loser="Cardinals"],
+    [data-opponent="Orioles"][data-loser="Mets"],
     [data-opponent="Orioles"][data-loser="Braves"],
     [data-opponent="Orioles"][data-loser="Phillies"] {
       --team-color: var(--orioles-black);
