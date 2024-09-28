@@ -336,6 +336,7 @@ const svgTemplate = `
     [data-opponent="Guardians"][data-loser="Phillies"] {
       --team-color: var(--guardians-navy);
     }
+    [data-opponent="Diamondbacks"][data-loser="Padres"],
     [data-opponent="Diamondbacks"][data-loser="Reds"],
     [data-opponent="Diamondbacks"][data-loser="Nationals"],
     [data-opponent="Diamondbacks"][data-loser="Cardinals"],
