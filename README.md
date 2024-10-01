@@ -20,6 +20,8 @@
 
 ## [Division vs Division](https://kurimareiji.github.io/mlb2024/divVSdiv.html)
 
+## [The Best Record in Baseball](https://kurimareiji.github.io/mlb2024/bestRecord.html)
+
 ## Related Works
 
 - [mlb2023](https://github.com/KurimaReiji/mlb2023)
