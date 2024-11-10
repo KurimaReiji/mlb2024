@@ -1199,6 +1199,7 @@ async function downloadHandler(detail) {
 }
 
 const gamesToday = () => {
+  return [];
   return fetchJson("https://statsapi.mlb.com/api/v1/schedule?sportId=1")
     .then((input) => {
       const data = input.dates[0].games
